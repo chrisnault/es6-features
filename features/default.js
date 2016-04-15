@@ -1,3 +1,5 @@
+//nodemon --exec babel-node ./features/default.js
+
 // defaults for function args
 function sayHello(name = 'World') {
 	console.log('Hello ' + name + '!');
